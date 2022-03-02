@@ -1,0 +1,74 @@
+.perfil-link {
+	background-color: aqua;
+	padding: 30px 20px;
+	text-align: center;
+	margin: 100px 100px 0 100px;
+	border-radius: 10px;
+}
+
+.perfil-link img {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	display: inline-block;
+	margin-bottom: 25px;
+}
+
+.perfil-link li {
+	display: block;
+	margin: 10px 0;	
+}
+
+.perfil-link li a {
+	color: darkblue;
+	text-decoration: none;
+	margin: 10px 0;
+	display: inline-block;
+}
+
+.mt-barras {
+	margin-top: 100px;
+}
+
+.mt-barras .detalhes {
+	border-bottom: 1px solid aqua;
+	padding: 20px;
+	font-weight: 500;
+}
+
+.text-justify {
+	text-align: justify;
+}
+
+/**
+@media (max-width:1000px) {
+	.mt-barras {
+	margin-top: 50px;
+}
+	.perfil-link {
+	background-color: aqua;
+	padding: 30px 20px;
+	text-align: center;
+	margin: 20px 0 0 0;
+	border-radius: 10px;
+}
+}*/
+
+@media (max-width:1200px) {
+	.perfil-link li {
+	 margin: 0;
+}
+	.perfil-link img{
+     margin-bottom: 15px;
+}
+	.mt-barras .detalhes {
+	padding: 10px;	
+	}
+	
+	.perfil-link {
+	background-color: aqua;
+	padding: 20px 10px;
+	text-align: center;
+	margin: 10px 0 0 0;
+	border-radius: 10px;
+}
